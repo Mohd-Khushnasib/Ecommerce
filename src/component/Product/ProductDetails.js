@@ -7,6 +7,7 @@ export default function ProductDetails() {
   const [quantity, setquantity] = useState(1);
   const [product, setproduct] = useState([]);
 
+  
   // params here
   const { id } = useParams();
   // console.log("params: ", id);
